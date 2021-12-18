@@ -4,6 +4,7 @@ h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
+.toast-header,
 blockquote {
   font-family: 'DM Serif Display', serif;
 }
@@ -14,6 +15,14 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 45px;
+}
+
+h3, .h3 {
+  font-size: 30px;
+}
+
+.toast-header h3 {
+  font-size: 22px;
 }
 
 img {
@@ -94,6 +103,10 @@ header.p-section {
   max-width: 900px;
 }
 
+.container-md {
+  max-width: 600px;
+}
+
 .w-md {
   max-width: 600px;
 }
@@ -114,6 +127,23 @@ header.p-section {
 
 .btn-group-sm>.btn, .btn-sm {
   padding: .30rem .75rem;
+}
+
+.btn-primary,
+.bg-primary,
+.btn-outline-primary:hover {
+  background-color: #5e5eff!important;
+}
+
+.btn-outline-primary {
+  color: #5e5eff;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited {
+  background-color: #4848c5;
 }
 
 .testimonial-item {
@@ -138,7 +168,7 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: #0b6efd87;
+  background-color: #ffdc5e;
   width: 102%;
   height: 0.2em;
   position: absolute;
@@ -147,4 +177,27 @@ header.p-section {
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
+}
+
+
+@media (max-width: 576px) {
+  h1, .h1 {
+    font-size: 40px;
+  }
+
+  h2, .h2 {
+    font-size: 30px;
+  }
+
+  h3, .h3 {
+    font-size: 22px;
+  }
+
+  .text-center-sm {
+    text-align: center;
+  }
+
+  .mb-3-sm {
+    margin-bottom: 1.5rem;
+  }
 }
