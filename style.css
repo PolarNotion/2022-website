@@ -193,11 +193,23 @@ header.p-section {
     font-size: 22px;
   }
 
+  header.p-section {
+    padding: 60px 0px 60px;
+  }
+
+  .p-section {
+    padding: 60px 0px;
+  }
+
   .text-center-sm {
     text-align: center;
   }
 
   .mb-3-sm {
     margin-bottom: 1.5rem;
+  }
+
+  .toast {
+    display: none;
   }
 }
